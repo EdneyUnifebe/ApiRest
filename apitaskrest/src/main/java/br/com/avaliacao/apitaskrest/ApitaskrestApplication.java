@@ -20,7 +20,7 @@ public class ApitaskrestApplication {
 			@Override
 			public void addCorsMappings(CorsRegistry registry) {
 
-				registry.addMapping("/**");
+				
 
 				registry.addMapping("/task").allowedOrigins("http://localhost:8082");
 			}
